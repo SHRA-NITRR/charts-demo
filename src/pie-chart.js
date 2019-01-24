@@ -9,7 +9,7 @@ const {
 class Piechart extends Component {
 render () {
   return (
-    <PieChart width={360} height={240}>
+    <PieChart width={360} height={300}>
     <Legend
                         payload={
                             [

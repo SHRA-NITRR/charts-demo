@@ -14,13 +14,13 @@ const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 class Graph extends Component {
 render () {
   return (
-    <BarChart width={400}
+    <BarChart width={600}
   height={300}
   data={data}
   layout="vertical"
   margin={{top: 5, right: 30, left: 20, bottom: 5}}>
     <XAxis type="number" domain={[0, 100]} interval={0} unit="%"/ >
-    <YAxis type="category" dataKey="name"  />
+    <YAxis type="category" dataKey="name" width={200} />
     <CartesianGrid strokeDasharray="3 3"/>
     <Tooltip/>
     <Bar dataKey="Percentage" fill="#8884d8" >

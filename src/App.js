@@ -26,7 +26,7 @@ class App extends Component {
       <div className="row">
       <div className="panel">
       <div className="panel-body">
-        <div className="col-lg-4">
+        <div className="col-lg-6">
         <div className="panel panel-success">
           <div className="panel-heading">Training Material for Key Users
 </div>
@@ -37,7 +37,7 @@ class App extends Component {
             </div>
             </div>
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-6">
         <div className="panel panel-success">
           <div className="panel-heading">Key-User Trainings
 </div>
@@ -49,29 +49,27 @@ class App extends Component {
             </div>
             </div>
         </div>
-        <div className="col-lg-4">
-        <div className="panel panel-success">
-          <div className="panel-heading">Knowledge Transfer
-</div>
-            <div className="panel-body">
-                <KT/>
-                </div>
-            <div className="panel-footer">Module wise classification
 
-            </div>
-            </div>
-            </div>
-            </div>
+      </div>
         </div>
       </div>
 <div className="row">
 <div className="panel">
 <div className="panel-body">
+<div className="col-lg-6">
+  <div className="panel panel-success">
+    <div className="panel-heading">Knowledge Transfer
+    </div>
+    <div className="panel-body">
+        <KT/>
+    </div>
+    <div className="panel-footer">Module wise classification
 
-<div className="page-header">
-<h1>PROCESS AND TOOL SETUP</h1>
+    </div>
+  </div>
 </div>
-      <div className="col-lg-4">
+
+      <div className="col-lg-6">
       <div className="panel panel-success">
         <div className="panel-heading">Knowledge Academy
 </div>
@@ -84,34 +82,8 @@ management.</div>
           </div>
       </div>
 
-      <div className="col-lg-4">
-      <div className="panel panel-success">
-        <div className="panel-heading">Transition Accelerators</div>
-          <div className="panel-body">
-              <Piechart data01={data03} data02={data04}/>
-              </div>
-              <div className="panel-footer">Tools identification, setup &
-configuration
-Customized Templates and
-Checklist
-Transition Plan
-</div>
-          </div>
-      </div>
-      <div className="col-lg-4">
-      <div className="panel panel-success">
-        <div className="panel-heading">Data Collection and Analysis</div>
-          <div className="panel-body">
-              <Piechart data01={data05} data02={data06}/>
-              </div>
-              <div className="panel-footer">Collate available documents for
-pre-study
-Detailed ITSM Ticket analysis
-using AI driven Problem Analytics
-Tool
-</div>
-          </div>
-      </div>
+
+
       </div>
       </div>
     </div>
